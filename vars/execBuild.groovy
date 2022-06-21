@@ -2,7 +2,7 @@ def call(String command) {
     if (command == "gradle") {
         pipeline {
             agent { 
-                node "master" 
+                node "inl00425" 
             }
             stages {
                 stage ("Checkout") {
